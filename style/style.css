@@ -147,6 +147,49 @@ body {
     justify-content: center;
 }
 
+.insta {
+    background: url("/icon/header/insta__ico.svg");
+    background-position: center;
+    background-size: 30px;
+
+    transition: 0.1s ease;
+}
+
+.facebook {
+    background: url("/icon/header/facebook__ico.svg");
+    background-position: center;
+    background-size: 30px;
+
+    transition: 0.1s ease;
+}
+.linkedin {
+    background: url("/icon/header/linked__ico.svg");
+    background-position: center;
+    background-size: 30px;
+
+    transition: 0.1s ease;
+}
+.insta:hover {
+    background: url("/icon/header/insta__green__ico.svg");
+    background-position: center;
+    background-size: 30px;
+
+    cursor: pointer;
+}
+.facebook:hover {
+    background: url("/icon/header/facebook__green__ico.svg");
+    background-position: center;
+    background-size: 30px;
+
+    cursor: pointer;
+}
+.linkedin:hover {
+    background: url("/icon/header/linkedin__green__ico.svg");
+    background-position: center;
+    background-size: 30px;
+
+    cursor: pointer;
+}
 /* FIRST SCREEN */
 
 .first__screen {
