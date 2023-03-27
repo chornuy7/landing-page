@@ -366,6 +366,10 @@ body {
     gap: 1.25rem;
 
     flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    margin-bottom: 6.25rem;
 }
 .block2__title {
     text-align: center;
@@ -409,12 +413,57 @@ body {
     grid-template-rows: auto 6.25rem auto;
     gap: 22px;
 
-    align-items: center;
-    justify-content: center;
-
     text-align: center;
 }
 
 .block2__card__content .learn__more {
     margin: 0 auto;
+}
+
+/* BLOCK 2 SUB-BLOCK =============*/
+
+.block2__subblock {
+    background: url("/icon/bgd__subblock.png");
+
+    background-color: #eeeeee;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px;
+}
+
+.block2__subblock h1 {
+    font-size: 2.25rem;
+    font-weight: var(--fw-semibold);
+    line-height: 1.2;
+
+    margin-bottom: 2.5rem;
+}
+.subblock2__green {
+    color: var(--clr-green);
+}
+
+.block2__subblock__subtitle p {
+    font-family: var(--ff-secondary);
+    font-size: 1.375rem;
+    line-height: 1.2;
+    margin: 0 auto;
+    align-self: center;
+    text-align: center;
+    max-width: 40.625rem;
+}
+.block2__subblock__btn {
+    margin-top: 2.5rem;
+}
+
+.block2__subblock__green {
+    color: var(--clr-green);
+
+    font-weight: var(--fw-semibold);
+}
+
+.block2__subblock__red {
+    color: var(--clr-red);
+    font-weight: var(--fw-semibold);
 }
