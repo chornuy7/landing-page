@@ -97,7 +97,7 @@ body {
     color: white;
     background-color: var(--clr-green);
 
-    transition: 0.2s ease-in;
+    transition: 0.1s ease;
 }
 .header__btn:hover {
     color: var(--clr-green);
@@ -207,6 +207,45 @@ body {
     font-size: 2rem;
     color: var(--clr-white);
 }
+.card__2::after {
+    content: "2";
+}
+.card__3::after {
+    content: "3";
+}
+.card__4::after {
+    content: "4";
+}
+.card__5::after {
+    content: "5";
+}
+.card__6::after {
+    display: none;
+}
+.card__6 {
+    align-self: center;
+
+    background-color: rgba(255, 255, 255, 0);
+}
+.card__title__first {
+    display: grid;
+    gap: 30px;
+}
+.card__title__first h3 {
+    text-align: center;
+
+    font-size: 1.25rem;
+    font-family: var(--ff-secondary);
+    color: var(--clr-white);
+    font-weight: var(--fw-regular);
+
+    line-height: 1.2;
+}
+
+.card__title6 {
+    color: var(--clr-green);
+}
+
 .card__title h3 {
     font-size: 1.5rem;
     color: var(--clr-oragne);
@@ -220,13 +259,60 @@ body {
     color: var(--clr-black);
     line-height: 1.2;
 }
-.learn__more {
+.worth__500 {
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
 }
+.card__text__ico {
+    font-family: var(--ff-secondary);
+    font-size: 0.9375rem;
+
+    color: var(--clr-white);
+    line-height: 21px;
+}
+.btn__card6 {
+    text-align: center;
+}
+
 .learn__more__text {
     font-size: 1rem;
     font-family: var(--ff-secondary);
     color: var(--clr-green);
     line-height: 1.5;
 }
+.learn__more {
+    display: flex;
+    gap: 0.625rem;
+}
+.learn__more__text {
+    display: flex;
+    gap: 0.625rem;
+
+    transition: 0.3s ease;
+
+    align-items: center;
+}
 .learn__more__img {
+    width: 24px;
+    height: 24px;
+    content: "";
+    background: url("/icon/ico/circle-chevron-right.svg");
+
+    background-position: center;
+
+    transition: 0.1s ease;
+}
+.learn__more:hover .learn__more__img {
+    width: 24px;
+    height: 24px;
+    content: "";
+    background: url("/icon/ico/circle-chevron-right_black.svg");
+
+    background-position: center;
+}
+
+.learn__more:hover .learn__more__text {
+    color: var(--clr-black);
 }
