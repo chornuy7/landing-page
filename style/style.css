@@ -148,7 +148,7 @@ body {
 }
 
 .insta {
-    background: url("/icon/header/insta__ico.svg");
+    background: url("/img/header/insta__ico.svg");
     background-position: center;
     background-size: 30px;
 
@@ -156,35 +156,35 @@ body {
 }
 
 .facebook {
-    background: url("/icon/header/facebook__ico.svg");
+    background: url("/img/header/facebook__ico.svg");
     background-position: center;
     background-size: 30px;
 
     transition: 0.1s ease;
 }
 .linkedin {
-    background: url("/icon/header/linked__ico.svg");
+    background: url("/img/header/linked__ico.svg");
     background-position: center;
     background-size: 30px;
 
     transition: 0.1s ease;
 }
 .insta:hover {
-    background: url("/icon/header/insta__green__ico.svg");
+    background: url("/img/header/insta__green__ico.svg");
     background-position: center;
     background-size: 30px;
 
     cursor: pointer;
 }
 .facebook:hover {
-    background: url("/icon/header/facebook__green__ico.svg");
+    background: url("/img/header/facebook__green__ico.svg");
     background-position: center;
     background-size: 30px;
 
     cursor: pointer;
 }
 .linkedin:hover {
-    background: url("/icon/header/linkedin__green__ico.svg");
+    background: url("/img/header/linkedin__green__ico.svg");
     background-position: center;
     background-size: 30px;
 
@@ -193,7 +193,7 @@ body {
 /* FIRST SCREEN */
 
 .first__screen {
-    background: url("/icon/bgd__first.png");
+    background: url("/img/bgd__first.png");
     background-size: cover;
 }
 .first__container {
@@ -341,7 +341,7 @@ body {
     width: 24px;
     height: 24px;
     content: "";
-    background: url("/icon/ico/circle-chevron-right.svg");
+    background: url("/img/ico/circle-chevron-right.svg");
 
     background-position: center;
 
@@ -351,7 +351,7 @@ body {
     width: 24px;
     height: 24px;
     content: "";
-    background: url("/icon/ico/circle-chevron-right_black.svg");
+    background: url("/img/ico/circle-chevron-right_black.svg");
 
     background-position: center;
 }
@@ -423,7 +423,7 @@ body {
 /* BLOCK 2 SUB-BLOCK =============*/
 
 .block2__subblock {
-    background: url("/icon/bgd__subblock.png");
+    background: url("/img/bgd__subblock.png");
 
     background-color: #eeeeee;
     background-position: center;
@@ -466,4 +466,21 @@ body {
 .block2__subblock__red {
     color: var(--clr-red);
     font-weight: var(--fw-semibold);
+}
+
+/* BLOCK 3 ==================== */
+.block3__content {
+    background: url("/icon/");
+}
+
+.block3__title {
+    margin-bottom: 2.5rem;
+    color: var(--clr-white);
+
+    font-weight: var(--fw-semibold);
+    line-height: 1.2;
+    font-size: 2.25rem;
+}
+.block3__back__text {
+    background-color: var(--clr-green);
 }
