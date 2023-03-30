@@ -880,3 +880,9 @@ body {
     font-family: var(--ff-secondary);
     font-size: 1rem;
 }
+
+/* BLOCK 6 ======================== */
+
+.block6__container {
+    background-color: #e4e4e4;
+}
