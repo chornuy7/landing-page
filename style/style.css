@@ -859,7 +859,7 @@ body {
 /* BLOCK 5 SUBBBLOCK=================== */
 
 .block5__subblock__subblock {
-    margin-top: 3.125rem;
+    margin-top: 6.25rem;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -1085,4 +1085,37 @@ body {
     line-height: 1.3125rem;
 
     color: var(--clr-korichevyu);
+}
+
+/* BLOCK 7 ============================= */
+
+.card7__container {
+}
+.card7__content {
+    text-align: center;
+}
+.card7__content h1 {
+    font-size: 2.25rem;
+    line-height: 58px;
+}
+.card7__content p {
+    font-family: var(--ff-secondary);
+    font-size: 1.125rem;
+
+    width: 70%;
+
+    margin: 0 auto;
+}
+.card7__p__green {
+    color: var(--clr-green);
+}
+.card7__img {
+    margin: 0 auto;
+    margin-top: 3.125rem;
+    width: 50%;
+}
+.card7__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
