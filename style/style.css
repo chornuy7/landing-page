@@ -1281,3 +1281,55 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+/* BLOCK 11 =========================== */
+.block11__content {
+    text-align: center;
+}
+.block11__main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-image: url("/img/block11_bg.png");
+    background-size: cover;
+    gap: 1.25rem;
+    row-gap: 10px;
+    padding: 108px 70px 70px 70px;
+}
+.block11__card {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.9375rem;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+
+    width: 100%;
+}
+.block11__img {
+    width: 64px;
+    height: 64px;
+}
+.block11__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block11__text {
+    color: var(--clr-green);
+}
+.block11__content h1 {
+    font-size: 2.25rem;
+
+    line-height: 58px;
+}
+.block11__content p {
+    font-family: var(--ff-secondary);
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.block11__title__sub {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--clr-gray);
+}
