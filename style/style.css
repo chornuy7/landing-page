@@ -1430,3 +1430,70 @@ span .block12__num {
     font-family: var(--ff-secondary);
     font-size: 15px;
 }
+
+/* BLOCK 13 ================= */
+
+.block13__container {
+    background-image: url("/img/block13.png");
+
+    padding-bottom: 0;
+}
+
+.block13__content {
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    gap: 9.375rem;
+}
+
+.block13__left h1 {
+    font-size: 2.25rem;
+    line-height: 58px;
+    color: white;
+
+    margin-bottom: 3.125rem;
+}
+
+.block13__left p {
+    font-family: var(--ff-secondary);
+    font-size: 20px;
+
+    margin-bottom: 30px;
+
+    color: white;
+
+    margin-bottom: 50px;
+}
+.block13__right h2 {
+    font-size: 32px;
+    font-weight: var(--fw-regular);
+    color: white;
+}
+
+.block13__right__num {
+    color: var(--clr-green);
+}
+
+.block13__footer {
+    background-color: var(--clr-black);
+
+    padding: 50px 120px;
+}
+
+.block13__footer h1 {
+    font-size: 32px;
+    font-weight: var(--fw-regular);
+    color: white;
+}
+.block13__footer p {
+    font-family: var(--ff-secondary);
+    font-size: 20px;
+
+    margin-bottom: 30px;
+
+    margin-top: 20px;
+    color: var(--clr-green);
+}
