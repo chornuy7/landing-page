@@ -1237,3 +1237,47 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+/* BLOCK 10 ================ */
+.free__consultation {
+    background-color: var(--clr-green);
+}
+.block10__content {
+    display: flex;
+    justify-content: space-between;
+}
+.block10__content__text {
+    width: 60%;
+}
+.block10__container h1 {
+    font-size: 2.25rem;
+    line-height: 43px;
+    color: white;
+    margin-bottom: 25px;
+}
+.block10__container p {
+    font-family: var(--ff-secondary);
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.block__p__black {
+    color: var(--clr-black);
+    font-weight: var(--fw-semibold);
+}
+
+.block10__footer {
+    display: flex;
+    gap: 30px;
+
+    align-items: center;
+}
+.block10__right__img {
+    width: 247px;
+}
+.block10__right__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
