@@ -1373,6 +1373,12 @@ body {
 .block12__text {
     font-size: 28px;
     line-height: 38px;
+
+    font-size: 32px;
+    font-family: var(--ff-primary);
+    text-align: left;
+
+    color: gray;
 }
 
 .green__block12 {
@@ -1392,6 +1398,7 @@ body {
 
     background-color: var(--clr-green);
 }
+
 .block12__footer span {
     color: var(--clr-gray);
 
@@ -1430,7 +1437,13 @@ span .block12__num {
     font-family: var(--ff-secondary);
     font-size: 15px;
 }
-
+.block12__card__sub p {
+    color: var(--clr-white);
+    text-align: left;
+}
+.green__block12__sub {
+    color: white;
+}
 /* BLOCK 13 ================= */
 
 .block13__container {
@@ -1496,4 +1509,52 @@ span .block12__num {
 
     margin-top: 20px;
     color: var(--clr-green);
+}
+
+/* BLOCK 14 =========== */
+
+.block14__content h1 {
+    text-align: center;
+
+    font-size: 2.25rem;
+    line-height: 58px;
+}
+
+.block14__grid {
+    display: grid;
+
+    grid-template-columns: 0.2fr repeat(3, 1fr) 0.2fr;
+
+    align-items: center;
+
+    margin-top: 50px;
+}
+.block14__card__img {
+    margin: 0 auto;
+    width: 240px;
+    height: 240px;
+
+    margin-bottom: 20px;
+}
+.block14__card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block14__card__title {
+    text-align: center;
+    font-family: var(--ff-secondary);
+    font-size: 24px;
+
+    margin-bottom: 12px;
+}
+
+.block14__card__subtitle {
+    font-family: var(--ff-secondary);
+    font-size: 15px;
+
+    color: var(--clr-green);
+
+    text-align: center;
 }
